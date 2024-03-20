@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            width: 700px;
+            margin: 50px;
+            border: 2px solid black;
+            background-color: aqua;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;  /*auto ghetl tr to urleli jaga ghrun ghete shevtacha box ani kontya pn box la deu shtko */
+            grid-template-rows: 200px 200px 200px; /* repeat(3,200px) or repeat(2,200px) 300px*/
+
+        }
+        .items{
+            color: antiquewhite;
+        }
+        .it1{
+            background-color: violet;
+            /* grid-row-start: 2; */
+        }
+        .it2{
+            background-color: indigo;
+            /* grid-row-start: 3; */
+        }
+        .it3{
+            background-color:blueviolet;
+            /* grid-row-end: 4; */
+        }
+        .it4{
+            background-color: green;
+        }
+        .it5{
+            background-color:yellow;
+        }
+        .it6{
+            background-color:red;
+        }
+    </style>
+</head>
+<body>
+    <div class = container>
+        <div class = "items it1">First</div>
+        <div class = "items it2">Second</div>
+        <div class = "items it3">Third</div>
+        <div class = "items it4">Fourth</div>
+        <div class = "items it5">Fifth</div>
+        <div class = "items it6">Sixth</div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container{
+            border: 6px solid black ;
+              display: flex;  
+             flex-direction: row;
+             /* flex-wrap: wrap;  */
+            /* flex-flow: row wrap-reverse; /*shorthand property */
+            /*justify-content: flex-start; */
+            height: 200px;
+             /* align-items: flex-start;  the default value is stretch  */ 
+            /* align-content: space-evenly;   difference in both run it once */
+/* Space around ,space-between,space-evenly*/
+        }
+        .flex-item{   /* he sarvanna lavaych hot mhnun*/
+            color: aqua;
+            font-size: 1.5rem;
+            padding: 1rem;
+            /* flex-shrink: 0;  */
+        }
+        .item-1
+        {
+            background-color: rgb(141, 5, 141);
+            align-self: flex-start;
+            /* order: 3; */
+            /* flex-grow: ;  */
+            /* flex-shrink: 1; */
+            /* flex-basis: auto; change width */
+            /* flex: 2 4 200px;  default value 0 1 auto  shorthand property*/
+        }
+        .item-2
+        {
+            background-color: indigo;
+            /* align-self: flex-end;   */
+
+            /* order: 5; */
+            /* flex-grow: 2; double of the item-1 */
+        }
+        .item-3
+        {
+            align-self: center;
+            background-color: blue;
+            align-self: last baseline;
+        }
+        .item-4
+        {
+            background-color: green;
+        }
+        .item-5
+        {
+            background-color: yellow;
+        }
+        .item-6
+        {
+            background-color: orange;
+        }
+        .item-7
+        {
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flex-item item-1">Item 1</div>
+        <div class="flex-item item-2">Item 2</div>
+        <div class="flex-item item-3">Item 3</div>
+        <div class="flex-item item-4">Item 4</div>
+        <div class="flex-item item-5">Item 5</div>
+        <div class="flex-item item-6">Item 6</div>
+        <div class="flex-item item-7">Item 7</div>
+
+    </div>
+</body>
+</html>

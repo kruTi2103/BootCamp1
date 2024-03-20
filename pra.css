@@ -1,0 +1,73 @@
+/* h2{
+    color: aqua;
+}
+ul{
+    list-style-type: square;
+    font-size: 20px;
+    background-color: aqua;
+    width: 500px;
+
+}
+ for links 
+a{
+    text-decoration: none;
+}
+a.visited
+{
+    color: red;  
+}
+a:hover{
+    color: yellow;
+
+}
+a:active{
+    color: black;
+} */
+
+/* ul{
+    background-color: aqua;
+}
+li{
+    display: inline-block;  /*for nav bar we  used this */
+    /* border: 2px solid black;
+    margin: 20px;
+}*/
+/*
+pre{ 
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    overflow: scroll;
+}
+#b{
+    float: right;
+}
+#a
+{
+    float: left;
+}*/
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+header{
+background-color: wheat;
+padding:20px ;
+height:80px ;
+}
+nav{
+    float: right;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+} */
+
+

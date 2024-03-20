@@ -1,0 +1,16 @@
+tbody > tr > td {
+    background-color: rgb(144, 228, 203);
+  }
+  
+  thead > th, tbody > tr > td.apply {
+    background-color: antiquewhite;
+  }
+   thead.tah
+  {
+    background-color: rgb(6, 0, 7);
+    color: antiquewhite;
+  }
+  #a
+  {
+    color: brown;
+  }

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            box-sizing: border-box;
+        }      
+        body{
+            align-items: center;
+            justify-content: center;
+
+        }  
+        .container{
+            position: relative;
+            padding: 200px;
+            display: flex;
+            margin: 20px;
+            border: 2px solid black;
+        }
+        .items{
+            width: 180px;
+            height: 100px;
+        }
+        .item1{
+            background-color: violet;
+            position: absolute;
+            top: 100px;
+            right: 100px;
+
+        }
+        .item2{
+            background-color: yellow;
+        }
+        .item3{
+             background-color: aqua;
+        }
+        .item4{
+            background-color: brown;
+        }
+        .item5{
+            background-color: crimson;
+        }
+        /* static - default value cna't used other value  t,r,b,l
+         relative - we can used
+          absolute fixed sticky properties */
+        /* top bottom left right  z-index*/
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="items item1"></div>
+    <div class="items item2"></div>
+    <div class="items item3"></div>
+    <div class="items item4"></div>
+    <div class="items item5"></div>
+    </div>
+</body>
+</html>

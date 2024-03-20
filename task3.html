@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <form>
+        <fieldset style ="width:30%">
+        <legend>Authorization</legend>
+        <label>Login</label>
+        <input type="text"/>
+        <label>Password</label>
+        <input type="text"/><br>
+        <button>Submit</button>
+    </fieldset>
+</form>
+<br>
+<br>
+<form>
+    <fieldset style="width: 30%;">
+        <legend> Registration</legend>
+    <label>Name</label>
+    <input type="text"/><br>
+    <label>Surname</label>
+    <input type="text"/><br>
+    <label>Gender</label><br>
+    <input type ="radio" name="gender" value="Male">Male
+    <input type ="radio" name="gender" value="Female">Female
+    <input type ="radio" name="gender" value="Other">Other<br>
+    <label>Date of birth</label>
+    <input type="datetime-local" /><br>
+    <label>Country</label>
+    <select>
+        <option>Select</option>
+        
+        <optgroup label="Africa"> 
+            <option>Egypt</option>
+            <option>Keny</option>
+        </optgroup>
+        <optgroup label="Americas"> 
+            <option>Mexico</option>
+            <option>Argentina</option>
+        </optgroup>
+        <optgroup label="Asia"> 
+            <option>India</option>
+            <option>Japan</option>
+        </optgroup>
+        <optgroup label="Europe" disabled> 
+            <option>Albania</option>
+            <option>Andorra</option>
+        </optgroup>
+    </select><br>
+    <label>Favorite color</label>  
+    <input type="color"><br>
+    <label>Password</label>  
+    <input type="password"><br>
+    <label>Repeat Password</label>  
+    <input type="password"><br>
+    <label>Email</label>  
+    <input type="email"><br>
+    <label>Resume</label>
+    <input type="file"/><br>
+    <label>Married/Unmarried</label>
+    <input type="checkbox"/>Yes
+    <input type="checkbox"/>No<br>
+    <label>Marriage Date</label>
+    <input type="date"/><br>
+    <label>Mobile Number</label>
+    <input type="number"/><br>
+    <label>Telephone Number</label>
+    <input type="tel"/><br>
+    <button> Register</button>
+</fieldset>
+</form>
+</body>
+</html>
